@@ -1,0 +1,147 @@
+---
+title: "每天一个设计模式之命令模式"
+date: 2018-11-25
+categories:
+- 每天一个设计模式
+tags:
+- 设计模式
+- Python
+---
+
+> 命令模式是一种数据驱动的设计模式，它属于行为型模式。
+
+1. 请求以命令的形式包裹在对象中，并传给调用对象。
+2. 调用对象寻找可以处理该命令的合适的对象，并把该命令传给相应的对象。
+3. 该对象执行命令。
+
+在这三步骤中，分别有3个不同的主体：**发送者、传递者和执行者**。在实现过程中，需要特别关注。
+
+<!-- more -->
+
+> 作者按：《每天一个设计模式》旨在初步领会设计模式的精髓，目前采用`javascript`和`python`两种语言实现。诚然，每种设计模式都有多种实现方式，但此小册只记录最直截了当的实现方式 :)
+
+## 0. 项目地址
+
+- [此节全部代码](https://github.com/dongyuanxin/design-pattern-demos/tree/master/command_pattern)
+- [《每天一个设计模式》地址](https://godbmw.com/categories/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
+
+## 1. 什么是“命令模式”？
+
+> 命令模式是一种数据驱动的设计模式，它属于行为型模式。
+
+1. 请求以命令的形式包裹在对象中，并传给调用对象。
+2. 调用对象寻找可以处理该命令的合适的对象，并把该命令传给相应的对象。
+3. 该对象执行命令。
+
+在这三步骤中，分别有3个不同的主体：**发送者、传递者和执行者**。在实现过程中，需要特别关注。
+
+## 2. 应用场景
+
+有时候需要向某些对象发送请求，但是又不知道请求的接受者是谁，更不知道被请求的操作是什么。此时，**命令模式就是以一种松耦合的方式来设计程序**。
+
+## 3. 代码实现
+
+### 3.1 python3实现
+
+命令对象将动作的接收者设置在属性中，并且对外暴露了`execute`接口（按照习惯约定）。
+
+在其他类设置命令并且执行命令的时候，只需要按照约定调用`Command`对象的`execute()`即可。到底是谁接受命令，并且怎么执行命令，都交给`Command`对象来处理！
+
+```python
+__author__ = 'godbmw.com'
+
+# 接受到命令，执行具体操作
+class Receiver(object):
+  def action(self):
+    print("按钮按下，执行操作")
+
+# 命令对象
+class Command:
+  def __init__(self, receiver):
+    self.receiver = receiver
+  
+  def execute(self):
+    self.receiver.action()
+
+# 具体业务类
+class Button:
+  def __init__(self):
+    self.command = None
+  
+  # 设置命令对戏那个
+  def set_command(self, command):
+    self.command = command
+  
+  # 按下按钮，交给命令对象调用相关函数
+  def down(self):
+    if not self.command:
+      return 
+    self.command.execute()
+
+if __name__ == "__main__":
+
+  receiver = Receiver()
+  
+  command = Command(receiver)
+  
+  button = Button()
+  button.set_command(command)
+  button.down()
+```
+
+
+### 3.2 ES6 实现
+
+`setCommand`方法为按钮指定了命令对象，命令对象为调用者（按钮）找到了接收者（`MenuBar`），并且执行了相关操作。**而按钮本身并不需要关心接收者和接受操作**。
+
+```javascript
+// 接受到命令，执行相关操作
+const MenuBar = {
+  refresh(){
+    console.log("刷新菜单页面");
+  }
+};
+
+// 命令对象，execute方法就是执行相关命令
+const RefreshMenuBarCommand = receiver => {
+  return {
+    execute(){
+      receiver.refresh();
+    }
+  }
+};
+
+// 为按钮对象指定对应的 对象 
+const setCommand = (button, command) => {
+  button.onclick = () => {
+    command.execute();
+  }
+};
+
+let refreshMenuBarCommand = RefreshMenuBarCommand(MenuBar);
+let button = document.querySelector("button");
+setCommand(button, refreshMenuBarCommand);
+```
+
+下面是同级目录的html代码，在谷歌浏览器中打开创建的`index.html`，并且打开控制台，即可看到效果。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>命令模式</title>
+</head>
+<body>
+  <button>按钮</button>
+  <script src="./main.js"></script>
+</body>
+</html>
+```
+
+## 4. 参考
+
+- 《JavaScript 设计模式和开发实践》
+- [如何实现命令模式](https://www.yiibai.com/python_design_patterns/python_design_patterns_command.html)

@@ -1,0 +1,209 @@
+---
+title: "每天一个设计模式之状态模式"
+date: "2019-01-19"
+categories:
+  - 每天一个设计模式
+tags:
+  - 设计模式
+  - Python
+---
+
+> 状态模式：对象行为是**基于状态**来改变的。
+
+内部的状态转化，导致了行为表现形式不同。
+所以，用户在外面看起来，**好像**是修改了行为。
+
+
+<!-- more -->
+
+> 作者按：《每天一个设计模式》旨在初步领会设计模式的精髓，目前采用`javascript`和`python`两种语言实现。诚然，每种设计模式都有多种实现方式，但此小册只记录最直截了当的实现方式 :)
+
+## 0. 项目地址
+
+- [状态模式·代码](https://github.com/dongyuanxin/design-pattern-demos/tree/master/state_pattern)
+- [《每天一个设计模式》地址](https://godbmw.com/categories/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
+
+## 1. 什么是“状态模式”？
+
+> 状态模式：对象行为是**基于状态**来改变的。 
+
+内部的状态转化，导致了行为表现形式不同。
+所以，用户在外面看起来，**好像**是修改了行为。
+
+
+## 2. 优缺点
+
+**优点**
+
+封装了转化规则，对于大量**分支语句**，可以考虑使用状态类进一步封装。
+每个状态都是确定的，所以对象行为是可控的。
+
+**缺点**
+
+状态模式的**关键**是将事物的状态都封装成单独的类，这个类的各种方法就是“此种状态对应的表现行为”。
+因此，状态类会增加**程序开销**。
+
+## 3. 代码实现
+
+### 3.1 ES6 实现
+
+在JavaScript中，可以直接用JSON对象来代替状态类。
+
+下面代码展示的就是FSM（有限状态机）里面有3种状态：`download`、`pause`、`deleted`。
+控制状态转化的代码也在其中。
+
+`DownLoad`类就是，常说的`Context`对象，它的行为会随着状态的改变而改变。
+
+```javascript
+const FSM = (() => {
+  let currenState = "download";
+  return {
+    download: {
+      click: () => {
+        console.log("暂停下载");
+        currenState = "pause";
+      },
+      del: () => {
+        console.log("先暂停, 再删除");
+      }
+    },
+    pause: {
+      click: () => {
+        console.log("继续下载");
+        currenState = "download";
+      },
+      del: () => {
+        console.log("删除任务");
+        currenState = "deleted";
+      }
+    },
+    deleted: {
+      click: () => {
+        console.log("任务已删除, 请重新开始");
+      },
+      del: () => {
+        console.log("任务已删除");
+      }
+    },
+    getState: () => currenState
+  };
+})();
+
+class Download {
+  constructor(fsm) {
+    this.fsm = fsm;
+  }
+
+  handleClick() {
+    const { fsm } = this;
+    fsm[fsm.getState()].click();
+  }
+
+  hanldeDel() {
+    const { fsm } = this;
+    fsm[fsm.getState()].del();
+  }
+}
+
+// 开始下载
+let download = new Download(FSM);
+
+download.handleClick(); // 暂停下载
+download.handleClick(); // 继续下载
+download.hanldeDel(); // 下载中，无法执行删除操作
+download.handleClick(); // 暂停下载
+download.hanldeDel(); // 删除任务
+```
+
+### 3.2 Python3 实现
+
+python的代码采用的是“面向对象”的编程，没有过度使用函数式的闭包写法（python写起来也不难）。
+
+因此，负责状态转化的类，专门拿出来单独封装。
+其他3个状态类的状态，均由这个状态类来管理。
+
+```python
+# 负责状态转化
+class StateTransform:
+  def __init__(self):
+    self.__state = 'download'
+    self.__states = ['download', 'pause', 'deleted']
+  
+  def change(self, to_state):
+    if (not to_state) or (to_state not in self.__states) : 
+      raise Exception('state is unvalid')
+    self.__state = to_state
+
+  def get_state(self):
+    return self.__state
+
+# 以下是三个状态类
+
+class DownloadState: 
+  def __init__(self, transfomer):
+    self.__state = 'download'
+    self.__transfomer = transfomer
+  
+  def click(self):
+    print('暂停下载')
+    self.__transfomer.change('pause')
+
+  def delete(self):
+    print('先暂停, 再删除')
+  
+class PauseState:
+  def __init__(self, transfomer):
+    self.__state = 'pause'
+    self.__transfomer = transfomer
+  
+  def click(self):
+    print('继续下载')
+    self.__transfomer.change('download')
+
+  def delete(self):
+    print('删除任务')
+    self.__transfomer.change('deleted')
+
+class DeletedState:
+  def __init__(self, transfomer):
+    self.__state = 'deleted'
+    self.__transfomer = transfomer
+  
+  def click(self):
+    print('任务已删除, 请重新开始')
+
+  def delete(self):
+    print('任务已删除')
+
+# 业务代码
+class Download:
+  def __init__(self):
+    self.state_transformer = StateTransform()
+    self.state_map = {
+      'download': DownloadState(self.state_transformer),
+      'pause': PauseState(self.state_transformer),
+      'deleted': DeletedState(self.state_transformer)
+    }
+
+  def handle_click(self):
+    state = self.state_transformer.get_state()
+    self.state_map[state].click()
+  
+  def handle_del(self):
+    state = self.state_transformer.get_state()
+    self.state_map[state].delete()
+
+if __name__ == '__main__':
+  download = Download()
+  download.handle_click(); # 暂停下载
+  download.handle_click(); # 继续下载
+  download.handle_del(); # 下载中，无法执行删除操作
+  download.handle_click(); # 暂停下载
+  download.handle_del(); # 删除任务
+```
+
+## 4. 参考
+
+- [23种设计模式全解析](https://www.cnblogs.com/geek6/p/3951677.html)
+- [菜鸟教程状态模式](http://www.runoob.com/design-pattern/state-pattern.html)
+- 《JavaScript设计模式与开发实践》
