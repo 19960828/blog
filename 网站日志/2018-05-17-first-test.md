@@ -1,10 +1,7 @@
 ---
 title: Hello world!
 date: 2018-05-17
-categories:
-- 测试
-tags:
-- 测试
+categories: 测试
 ---
 
 > Hello world!
