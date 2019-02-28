@@ -1,9 +1,9 @@
 ---
 title: 来点音乐 -- 吐槽大会
 date: 2018-08-28
-categories:
-- 商务合作
-tags:
+categories: 合作推广
+tags: 
+permalink: "2018-08-28-laidianmusic-chat"
 ---
 
 这里是来点音乐公司的吐槽大会的厂址，Come on!
