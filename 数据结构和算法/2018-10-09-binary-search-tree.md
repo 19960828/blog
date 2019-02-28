@@ -1,11 +1,11 @@
 ---
 title: 二叉搜索树的实现与常见用法
 date: 2018-10-09
-categories:
-- 算法与数学
+categories: 数据结构和算法
 tags:
 - 数据结构
 - C与C++
+permalink: "2018-10-09-binary-search-tree"
 ---
 
 > 二叉搜索树是一颗空树，或者具有以下性质的二叉树：

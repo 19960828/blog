@@ -1,11 +1,11 @@
 ---
 title: 图遍历实现及其应用
 date: 2018-10-27
-categories:
-- 算法与数学
+categories: 数据结构和算法
 tags:
 - 算法
 - C与C++
+permalink: "2018-10-27-graph-traversal-application"
 ---
 
 > 介绍一些如何利用深度优先解决联通分量、是否联通、查找路径等相关问题，如何利用广度优先查找最短路径、计算最短距离等相关问题。

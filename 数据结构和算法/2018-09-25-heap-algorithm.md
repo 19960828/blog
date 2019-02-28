@@ -1,11 +1,11 @@
 ---
 title: 堆、堆排序和优先队列的那些事
 date: 2018-09-25
-categories:
-- 算法与数学
+categories: 数据结构和算法
 tags:
 - 算法
 - C与C++
+permalink: "2018-09-25-heap-algorithm"
 ---
 
 堆的实现难度不大，主要是理解其中的`shift_down`和`shift_up`两种操作。

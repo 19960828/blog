@@ -1,11 +1,11 @@
 ---
 title: 稠密图和稀疏图的最优实现及应用
 date: 2018-10-24
-categories:
-- 算法与数学
+categories: 数据结构和算法
 tags:
 - C与C++
 - 数据结构
+permalink: "2018-10-24-densegraph-sparsegraph"
 ---
 
 > 本文介绍了稠密图和稀疏图对应的实现方式：邻接矩阵和邻接表。

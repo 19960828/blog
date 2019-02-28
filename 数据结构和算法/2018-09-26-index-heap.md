@@ -1,11 +1,11 @@
 ---
 title: "进击的堆：最大索引堆"
 date: 2018-09-26
-categories:
-- 算法与数学
+categories: 数据结构和算法
 tags:
 - C与C++
 - 数据结构
+permalink: "2018-09-26-index-heap"
 ---
 
 > 我们为什么需要实现索引堆？
