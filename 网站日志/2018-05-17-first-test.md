@@ -1,7 +1,8 @@
 ---
 title: Hello world!
 date: 2018-05-17
-categories: 测试
+categories: 网站日志
+permalink: "2018-05-17-first-test"
 ---
 
 > Hello world!

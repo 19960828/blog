@@ -1,9 +1,9 @@
 ---
 title: 小站实用手册
 date: 2018-10-21
-categories:
-- 开源项目
+categories: 网站日志
 tags:
+permalink: "2018-10-21-how-to-use-site"
 ---
 
 > **这是一篇曾经置顶的文章 ○（_￣︶￣_）○** 它囊括了以下优质内容：
