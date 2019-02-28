@@ -2,10 +2,11 @@
 title: Mysql支持emoji表情
 date: 2018-08-09
 categories:
-- Mysql
 tags:
+- Mysql
 - 字符编码
 - 数据库
+permalink: "2018-08-09-mysql-emoji"
 ---
 
 最近为博客添加了`Valine`评论系统，在爬下来评论数据保存到服务器数据库的过程中发现，`mysql`默认配置是不支持`utf8mb4`编码的，无法写入`emoji`表情。

@@ -2,12 +2,12 @@
 title: canvas离屏技术与放大镜实现
 date: 2018-08-30
 categories:
-- JavaScript
 tags:
+- JavaScript
 - HTML5
-- 算法
 - 图像处理
 - canvas
+permalink: "2018-08-30-canvas-off-screen"
 ---
 
 如何借助`canvas`的为图片打上自己的御用水印？

@@ -2,9 +2,9 @@
 title: Js调用模式
 date: 2018-05-25
 categories:
-- JavaScript
 tags:
-- 设计模式
+- JavaScript
+permalink: "2018-05-25-js-call-mode"
 ---
 
 > 在`js`中，一共4中调用方式。需要注意的是，调用方式中，`this`的指向问题。

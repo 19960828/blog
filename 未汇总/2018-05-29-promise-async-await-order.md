@@ -2,9 +2,10 @@
 title: 详解promise、async和await的执行顺序
 date: 2018-05-29
 categories:
-- ES6
 tags:
-- 面试
+- ES6
+- Node
+permalink: "2018-05-29-promise-async-await-order"
 ---
 
 > 今日头条的笔试题，请问打印/输出顺序是什么？

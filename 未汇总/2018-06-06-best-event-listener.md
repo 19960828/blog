@@ -2,9 +2,10 @@
 title: 最优-scroll事件的监听实现
 date: 2018-06-06
 categories:
-- JavaScript
 tags:
-- 算法
+- JavaScript
+- 设计模式
+permalink: "2018-06-06-best-event-listener"
 ---
 
 关于`scroll`等类似高频率事件的最优实现攻略。

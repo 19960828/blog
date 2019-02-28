@@ -2,9 +2,10 @@
 title: border-sizing属性详解和应用
 date: 2018-06-05
 categories:
-- CSS
 tags:
 - UI设计
+- CSS
+permalink: "2018-06-05-border-sizing"
 ---
 
 > `box-sizing`用于更改用于计算元素宽度和高度的默认的 CSS 盒子模型。它有`content-box`、`border-box`和`inherit`三种取值。`inherit`指的是从父元素继承`box-sizing`表现形式，不再冗赘。

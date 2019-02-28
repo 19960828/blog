@@ -2,9 +2,9 @@
 title: Promise 概述
 date: 2018-05-23
 categories:
-- ES6
 tags:
-- 面试
+- ES6
+permalink: "2018-05-23-es-promise"
 ---
 - `Promise`实例一旦被创建就会被执行
 - `Promise`过程分为两个分支：`pending=>resolved`和`pending=>rejected`

@@ -2,9 +2,9 @@
 title: Js中的call、apply和bind实现
 date: 2018-06-18
 categories:
-- JavaScript
 tags:
-- 面试
+- JavaScript
+permalink: "2018-06-18-call-apply-bind"
 ---
 
 实现Js中原生的`call` `apply` 和 `bind`，有助于我们更深地理解函数式编程。

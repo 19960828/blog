@@ -2,12 +2,12 @@
 title: "刷《一年半经验，百度、有赞、阿里面试总结》·手记"
 date: 2018-11-28
 categories:
-- JavaScript
 tags:
-- 面试
+- JavaScript
 - 网络协议
 - HTML5
 - 算法
+permalink: "2018-11-28-try-web-interview"
 ---
 
 > 在掘金上看到了一位大佬发了一篇很详细的面试记录文章-[《一年半经验，百度、有赞、阿里面试总结》](https://juejin.im/post/5befeb5051882511a8527dbe)，为了查漏补缺，抽空就详细做了下。（*估计只有我这么无聊了哈哈哈*）

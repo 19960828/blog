@@ -2,10 +2,10 @@
 title: Mysql无法选取非聚合列
 date: 2018-08-11
 categories:
-- Mysql
 tags:
-- 服务器
+- Mysql
 - 数据库
+permalink: "2018-08-11-mysql-unagreegate-col"
 ---
 
 `Mysql 5.7`默认是无法选取非聚合列。如果要选取一条记录前后两条相邻记录，就会抛出 _SELECT list is not in GROUP BY clause ..._ 的报错。

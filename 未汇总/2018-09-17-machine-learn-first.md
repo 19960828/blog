@@ -2,10 +2,10 @@
 title: 机器学习，了解一下？
 date: 2018-09-17
 categories:
-- 算法与数学
 tags:
 - 机器学习
 - 算法
+permalink: "2018-09-17-machine-learn-first"
 ---
 
 > 老师在上课时候说：传统算法解决确定性问题，而机器学习解决非确定性问题。

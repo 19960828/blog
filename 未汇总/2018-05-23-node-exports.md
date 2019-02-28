@@ -2,8 +2,9 @@
 title: module.exports和exports.md
 date: 2018-05-23
 categories:
-- Node
 tags:
+- Node
+permalink: "2018-05-23-node-exports"
 ---
 
 探讨下`CommonJs`规范里面，`exports`和`module.exports`的区别

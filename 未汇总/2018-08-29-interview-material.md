@@ -2,9 +2,9 @@
 title: 面试资源汇总
 date: 2018-08-29
 categories:
-- 资源
 tags:
-- 面试
+- 资源分享
+permalink: "2018-08-29-interview-material"
 ---
 
 自己收集的面试资源，目前简单整理了前端、`Python`的面试资源( 2018-08-29 )。之后会持续更新。

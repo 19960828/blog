@@ -2,12 +2,11 @@
 title: 被DDos后的及时补救与一些思考
 date: 2018-11-06
 categories:
-- 网站搭建与运营
 tags:
 - 网络安全
 - CDN
 - 服务器
-- 云服务
+permalink: "2018-11-06-ddos-recover-and-think"
 ---
 
 > 最近3天，我的小站[godbmw.com](https://godbmw.com)经历了2次DDoS。第一次因为没有限制QPS，短短几分钟内CDN被盗刷了300G流量。第二次完善了相关保护措施后，CDN依然被D了90G的流量。经过2天的迁移和补救，终于使得网站服务恢复正常。用此篇记录下整个奋战过程。希望对广大站长有帮助。

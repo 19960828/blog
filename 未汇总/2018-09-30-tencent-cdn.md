@@ -2,9 +2,10 @@
 title: "CDN使用心得：加速双刃剑"
 date: 2018-09-30
 categories:
-- 网站搭建与运营
 tags:
+- 前端优化
 - CDN
+permalink: "2018-09-30-tencent-cdn"
 ---
 
 > 本文以腾讯云平台的CDN服务为例，记录下在个人网站开发和公司项目实战中的对CDN使用的心得。

@@ -2,10 +2,11 @@
 title: "MathJax：让前端支持数学公式"
 date: 2018-10-03
 categories:
-- 网站搭建与运营
 tags:
+- JavaScript
 - 第三方库
 - Latex
+permalink: "2018-10-03-js-mathjax"
 ---
 
 > 经过博主一番折腾，终于让博客支持`Latex`数学公式了。以后写公式，再也不需要截图了！

@@ -2,8 +2,9 @@
 title: 初识scss：配置与运行
 date: 2018-05-29
 categories:
-- Scss
 tags:
+- Scss
+permalink: "2018-05-29-scss-fisrt-step"
 ---
 
 > `Sass` 和 `SCSS` 其实是同一种东西，我们平时都称之为 `Sass`。**他们都是用`Ruby`开发Css预处理器，`boostrap4`已经将`less`换成了`sass`。**

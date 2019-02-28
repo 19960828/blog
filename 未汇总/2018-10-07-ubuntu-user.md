@@ -2,9 +2,10 @@
 title: Ubuntu创建新用户的正确姿势
 date: 2018-10-07
 categories:
-- Linux
 tags:
+- 服务器
 - Ubuntu
+permalink: "2018-10-07-ubuntu-user"
 ---
 
 最近在学习《系统编程》，老师让创建新的用户，以`name+学号`的格式命名，来防止抄袭。

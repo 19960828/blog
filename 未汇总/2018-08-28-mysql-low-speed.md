@@ -2,10 +2,11 @@
 title: Mysql连接缓慢
 date: 2018-08-28
 categories:
-- Mysql
 tags:
+- Mysql
 - 数据库
 - 服务器
+permalink: "2018-08-28-mysql-low-speed"
 ---
 
 在客户端和连接逐渐增多的情况下，禁用Mysql的`DNS`解析服务，可以极大提高连接速度，解决`Handshake inactivity timeout`等`TIMEOUT`类型报错。
