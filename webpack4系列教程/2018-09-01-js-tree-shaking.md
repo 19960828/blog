@@ -5,6 +5,9 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
+- JavaScript
+- 前端优化
+permalink: "2018-09-01-js-tree-shaking"
 ---
 
 > 本文简述了`webpack3` 和 `webpack4`在JS Tree Shaking上的区别，并详细介绍了在 `webpack4` 环境下如何对 JS代码 和 第三方库 进行Tree Shaking。

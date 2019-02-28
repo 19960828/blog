@@ -5,7 +5,7 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
-- 自动化
+permalink: "2018-10-18-webpack-clean-and-watch-mode"
 ---
 
 > 简单来说：生产开发过程中优雅地自动化！！！

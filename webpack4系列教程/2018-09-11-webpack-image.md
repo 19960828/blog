@@ -6,6 +6,7 @@ categories:
 tags:
 - webpack
 - 图像处理
+permalink: "2018-09-11-webpack-image"
 ---
 本节课会讲述`webpack4`中的图片常用的基础操作：
 

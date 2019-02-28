@@ -5,6 +5,9 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
+- CSS
+- 前端优化
+permalink: "2018-09-02-css-tree-shaking"
 ---
 
 > CSS 也有 Tree Shaking？

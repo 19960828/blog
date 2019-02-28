@@ -5,6 +5,8 @@ categories:
   - webpack4系列教程
 tags:
   - webpack
+  - JavaScript
+permalink: "2018-07-30-webpack-pack-js"
 ---
 
 > webpack 本身就是为了打包`js`所设计，作为第一节，介绍**怎么打包`js`**。

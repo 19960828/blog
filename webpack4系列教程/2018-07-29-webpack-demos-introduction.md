@@ -5,6 +5,8 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
+- 第三方库
+permalink: "2018-07-29-webpack-demos-introduction"
 ---
 
 > 前端目前最主流的`javascript`打包工具，在它的帮助下，开发者可以轻松地实现加密代码、多平台兼容。而最重要的是，它为**前端工程化**提供了最好支持。`vue`、`react`等大型项目的脚手架都是利用 webpack 搭建。

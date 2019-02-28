@@ -5,7 +5,8 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
-- 测试
+- Node
+permalink: "2018-10-19-webpack-dev-server"
 ---
 
 > 为什么需要开发模式？

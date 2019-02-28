@@ -5,6 +5,8 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
+- Scss
+permalink: "2018-08-18-webpack-scss"
 ---
 
 这节课以SCSS为例，讲解如何在`webpack`中编译这种CSS预处理语言，并配合`CSS`的LOADER来进行组合处理。一些更复杂的应用，请翻看《`webpack`处理CSS》这篇文章。

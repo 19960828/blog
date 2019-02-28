@@ -5,6 +5,8 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
+- ES6
+permalink: "2018-07-31-webpack-compile-es6"
 ---
 > 今天介绍`webpack`怎么编译`ES6`的各种函数和语法。敲黑板：**这是`webpack4`版本哦, 有一些不同于`webpack3`的地方。**
 

@@ -5,6 +5,10 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
+- CSS
+- Scss
+- 前端优化
+permalink: "2018-08-28-webpack-scss-lazy"
 ---
 
 本节课讲解在`webpack v4`中的 SCSS 提取和懒加载。值得一提的是，`v4`和`v3`在 Scss 的懒加载上的处理方法有着巨大差别：

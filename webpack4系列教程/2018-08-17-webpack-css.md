@@ -5,6 +5,8 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
+- CSS
+permalink: "2018-08-17-webpack-css"
 ---
 
 本节课结合`webpack`和相关LOADER的特点，可以非常方便地处理CSS。主要包括以下4个部分：

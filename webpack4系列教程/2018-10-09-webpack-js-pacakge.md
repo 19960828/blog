@@ -6,6 +6,8 @@ categories:
 tags:
 - webpack
 - 第三方库
+- JavaScript
+permalink: "2018-10-09-webpack-js-pacakge"
 ---
 
 项目做大之后，开发者会更多专注在业务逻辑上，其他方面则尽力使用第三方`JS`库来实现。

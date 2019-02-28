@@ -5,6 +5,7 @@ categories:
   - 开源项目
 tags:
   - webpack
+permalink: "2018-10-19-webpack-demos-introduction"
 ---
 
 > Wow！全网最贴心的`webpack4`系列中文教程和配套代码 ?

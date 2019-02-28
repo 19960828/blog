@@ -5,7 +5,8 @@ categories:
 - webpack4系列教程
 tags:
 - webpack
-- UI设计
+- 字体处理
+permalink: "2018-10-09-webpack-chracter-file"
 ---
 
 > 在自己的项目中引入中意的字体样式，是让自己舒坦的重要方式 :)
