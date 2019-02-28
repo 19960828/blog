@@ -1,11 +1,11 @@
 ---
 title: "Git 实战手册(一): 批量修改log中的提交信息"
 date: 2018-06-19
-categories:
-- Git实战手册
+categories: Git实战手册
 tags:
 - GitHub
 - Git
+permalink: "2018-06-19-batch-edit-log"
 ---
 
 > 事情的起源是这样的：迷恋的谷歌的我最近申请了一个新的 google 邮箱。然后果断在 github 上更新了邮箱地址，并且删除了之前的 163 等国内邮箱。

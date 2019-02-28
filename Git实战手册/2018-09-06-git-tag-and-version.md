@@ -1,10 +1,11 @@
 ---
 title: "Git实战手册(二): 标签应用和版本管理"
 date: 2018-09-06
-categories:
-- Git实战手册
+categories: Git实战手册
 tags:
 - Git
+- GitHub
+permalink: "2018-09-06-git-tag-and-version"
 ---
 
 > 当一个代码仓库进过长时间的迭代，针对不同的时期和需求，必定会有不同的版本。而借助 Git 提供的标签功能，可以快捷方便地记录代码版本。无论什么时候，想取回某个版本，不再需要查找冗长的`commit_id`，只需要取出打标签的历史版本即可。
