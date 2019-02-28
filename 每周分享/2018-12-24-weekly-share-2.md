@@ -4,11 +4,7 @@ date: "2018-12-24"
 categories:
   - 每周分享
 tags:
-playlist:
-  - name: "It's Your Birthday"
-    artist: "鹰王"
-    url: "//music.163.com/song/media/outer/url?id=526294901.mp3"
-    cover: "//p2.music.126.net/R6lbFNbcz3I-RljSWBEB0g==/109951163093362230.jpg?param=177y177"
+permalink: "2018-12-24-weekly-share-2"
 ---
 
 > 每每周分享会系统梳理过去一周我看的的值得记录和分享的技术、工具、文章/段子，致力于为收藏夹“瘦身”！

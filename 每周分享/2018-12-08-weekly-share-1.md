@@ -1,15 +1,8 @@
 ---
 title: "每周分享第 1 期"
 date: "2018-12-08"
-categories:
-  - 每周分享
-tags:
-  - 音乐分享
-playlist:
-  - name: 写了好多事都是关于你
-    artist: Fine乐团
-    url: "//music.163.com/song/media/outer/url?id=1325897785.mp3"
-    cover: "//p2.music.126.net/V505AUo8BE68YiO-pKlXJA==/109951163689299517.jpg?param=130y130"
+categories: 每周分享
+permalink: "2018-12-08-weekly-share-1"
 ---
 
 > 每周分享主要目的是将这一周我看的的值得记录和分享的技术、工具、文章还有段子进行系统梳理，以方便回顾查看。灵感来源于阮一峰老师的“每周分享”专题。
