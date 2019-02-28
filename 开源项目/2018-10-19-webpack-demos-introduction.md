@@ -1,8 +1,7 @@
 ---
 title: 全网最贴心webpack系列教程和配套代码
 date: 2018-10-19
-categories:
-  - 开源项目
+categories: 开源项目
 tags:
   - webpack
 permalink: "2018-10-19-webpack-demos-introduction"
