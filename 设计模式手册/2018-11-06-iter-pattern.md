@@ -1,8 +1,7 @@
 ---
 title: 每天一个设计模式之迭代器模式
 date: 2018-11-06
-categories:
-- 每天一个设计模式
+categories: 设计模式手册
 tags:
 - 设计模式
 - Python

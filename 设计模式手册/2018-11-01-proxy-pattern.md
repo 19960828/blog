@@ -1,8 +1,7 @@
 ---
 title: 每天一个设计模式之代理模式
 date: 2018-11-01
-categories:
-- 每天一个设计模式
+categories: 设计模式手册
 tags:
 - Python
 - 设计模式

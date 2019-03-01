@@ -1,8 +1,7 @@
 ---
 title: 每天一个设计模式·多语言实现
 date: 2018-10-23
-categories:
-- 开源项目
+categories: 开源项目
 tags:
 - 设计模式
 - Python
