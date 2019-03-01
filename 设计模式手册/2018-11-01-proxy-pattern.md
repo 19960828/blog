@@ -6,6 +6,7 @@ tags:
 - Python
 - 设计模式
 - JavaScript
+- 前端优化
 permalink: "2018-11-01-proxy-pattern"
 ---
 

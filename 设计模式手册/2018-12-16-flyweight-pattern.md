@@ -6,6 +6,7 @@ tags:
   - 设计模式
   - Python
   - JavaScript
+  - 前端优化
 permalink: "2018-12-16-flyweight-pattern"
 ---
 

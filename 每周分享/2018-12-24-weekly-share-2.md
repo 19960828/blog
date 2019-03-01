@@ -5,6 +5,13 @@ categories:
   - 每周分享
 tags:
 permalink: "2018-12-24-weekly-share-2"
+tags: 
+  - JavaScript
+  - Git
+  - GitHub
+  - CSS3
+  - ReactJS
+  - Golang
 ---
 
 > 每每周分享会系统梳理过去一周我看的的值得记录和分享的技术、工具、文章/段子，致力于为收藏夹“瘦身”！
