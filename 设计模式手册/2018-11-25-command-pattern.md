@@ -6,6 +6,8 @@ categories:
 tags:
 - 设计模式
 - Python
+- JavaScript
+permalink: "2018-11-25-command-pattern"
 ---
 
 > 命令模式是一种数据驱动的设计模式，它属于行为型模式。

@@ -6,6 +6,8 @@ categories:
 tags:
 - 设计模式
 - Python
+- JavaScript
+permalink: "2018-11-18-publish-subscribe-pattern"
 ---
 
 > 订阅-发布模式定义了对象之间的一种一对多的依赖关系，当一个对象的状态发生改变时，所有依赖它的对象都可以得到通知。

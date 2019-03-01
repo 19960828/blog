@@ -6,6 +6,8 @@ categories:
 tags:
   - 设计模式
   - Python
+  - JavaScript
+permalink: "2018-12-12-composite-pattern"
 ---
 
 > 组合模式，将对象组合成树形结构以表示“部分-整体”的层次结构。

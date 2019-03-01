@@ -6,6 +6,8 @@ categories:
 tags:
 - 设计模式
 - Python
+- JavaScript
+permalink: "2018-10-25-stragegy-pattern"
 ---
 
 > 策略模式定义：就是能够把一系列“可互换的”算法封装起来，并根据用户需求来选择其中一种。

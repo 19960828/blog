@@ -1,11 +1,12 @@
 ---
 title: 每天一个设计模式之单例模式
 date: 2018-10-23
-categories:
-- 每天一个设计模式
+categories: 设计模式手册
 tags:
 - 设计模式
 - Python
+- JavaScript
+permalink: "2018-10-23-singleton-pattern"
 ---
 
 > 单例模式定义：保证一个类仅有一个实例，并提供访问此实例的全局访问点。

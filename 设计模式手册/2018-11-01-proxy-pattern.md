@@ -6,6 +6,8 @@ categories:
 tags:
 - Python
 - 设计模式
+- JavaScript
+permalink: "2018-11-01-proxy-pattern"
 ---
 
 > 代理模式的定义：为一个对象提供一种代理以方便对它的访问。

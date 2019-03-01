@@ -6,6 +6,8 @@ categories:
 tags:
 - 设计模式
 - Python
+- JavaScript
+permalink: "2018-11-06-iter-pattern"
 ---
 
 > 迭代器模式是指提供一种方法顺序访问一个集合对象的各个元素，使用者不需要了解集合对象的底层实现。

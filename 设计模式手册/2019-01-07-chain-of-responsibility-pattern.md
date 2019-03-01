@@ -6,6 +6,8 @@ categories:
 tags:
   - 设计模式
   - Python
+  - JavaScript
+permalink: "2019-01-07-chain-of-responsibility-pattern"
 ---
 
 > 责任链模式：多个对象均有机会处理请求，从而**解除**发送者和接受者之间的耦合关系。这些对象连接成为**链式结构**，每个节点转发请求，直到有对象处理请求为止。

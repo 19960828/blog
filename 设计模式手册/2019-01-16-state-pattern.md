@@ -6,6 +6,8 @@ categories:
 tags:
   - 设计模式
   - Python
+  - JavaScript
+permalink: "2019-01-16-state-pattern"
 ---
 
 > 状态模式：对象行为是**基于状态**来改变的。

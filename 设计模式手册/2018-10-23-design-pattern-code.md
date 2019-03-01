@@ -6,6 +6,7 @@ categories:
 tags:
 - 设计模式
 - Python
+permalink: "2018-10-23-design-pattern-code"
 ---
 
 > Wow！这是一本多语言实现的设计模式的小册 ?

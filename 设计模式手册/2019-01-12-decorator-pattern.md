@@ -6,6 +6,8 @@ categories:
 tags:
   - 设计模式
   - Python
+  - JavaScript
+permalink: "2019-01-12-decorator-pattern"
 ---
 
 > 装饰者模式：在**不改变**对象自身的基础上，**动态**地添加功能代码。

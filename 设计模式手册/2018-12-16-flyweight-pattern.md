@@ -6,6 +6,8 @@ categories:
 tags:
   - 设计模式
   - Python
+  - JavaScript
+permalink: "2018-12-16-flyweight-pattern"
 ---
 
 > 享元模式：运用共享技术来减少创建对象的数量，从而减少内存占用、提高性能。
