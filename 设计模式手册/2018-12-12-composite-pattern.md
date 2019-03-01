@@ -5,7 +5,7 @@ categories: 设计模式手册
 tags:
   - 设计模式
   - Python
-  - JavaScript
+  - ES6
 permalink: "2018-12-12-composite-pattern"
 ---
 
