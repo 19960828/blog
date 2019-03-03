@@ -1,5 +1,5 @@
 ---
-title: 每天一个设计模式之代理模式
+title: 设计模式手册之代理模式
 date: 2018-11-01
 categories: 设计模式手册
 tags:

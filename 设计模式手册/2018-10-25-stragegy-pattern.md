@@ -1,5 +1,5 @@
 ---
-title: 每天一个设计模式之策略模式
+title: 设计模式手册之策略模式
 date: 2018-10-25
 categories: 设计模式手册
 tags:

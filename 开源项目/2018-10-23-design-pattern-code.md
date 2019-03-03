@@ -5,6 +5,8 @@ categories: 开源项目
 tags:
 - 设计模式
 - Python
+- JavaScript
+- ES6
 permalink: "2018-10-23-design-pattern-code"
 ---
 

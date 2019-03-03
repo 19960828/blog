@@ -1,5 +1,5 @@
 ---
-title: 每天一个设计模式之单例模式
+title: 设计模式手册之单例模式
 date: 2018-10-23
 categories: 设计模式手册
 tags:
