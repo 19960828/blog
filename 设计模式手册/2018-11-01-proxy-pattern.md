@@ -16,13 +16,6 @@ permalink: "2018-11-01-proxy-pattern"
 
 <!-- more -->
 
-> 博主按：《每天一个设计模式》旨在初步领会设计模式的精髓，目前采用`javascript`（_靠这吃饭_）和`python`（_纯粹喜欢_）两种语言实现。诚然，每种设计模式都有多种实现方式，但此小册只记录最直截了当的实现方式 :)
-
-## 0. 项目地址
-
-- [本节课代码](https://github.com/dongyuanxin/design-pattern-demos/tree/master/proxy_pattern)
-- [《每天一个设计模式》地址](https://godbmw.com/category/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
-
 ## 1. 什么是代理模式？
 
 > 代理模式的定义：为一个对象提供一种代理以方便对它的访问。

@@ -14,15 +14,7 @@ permalink: "2019-01-16-state-pattern"
 内部的状态转化，导致了行为表现形式不同。
 所以，用户在外面看起来，**好像**是修改了行为。
 
-
 <!-- more -->
-
-> 作者按：《每天一个设计模式》旨在初步领会设计模式的精髓，目前采用`javascript`和`python`两种语言实现。诚然，每种设计模式都有多种实现方式，但此小册只记录最直截了当的实现方式 :)
-
-## 0. 项目地址
-
-- [状态模式·代码](https://github.com/dongyuanxin/design-pattern-demos/tree/master/state_pattern)
-- [《每天一个设计模式》地址](https://godbmw.com/categories/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
 
 ## 1. 什么是“状态模式”？
 

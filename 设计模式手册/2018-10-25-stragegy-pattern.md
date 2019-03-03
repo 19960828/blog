@@ -15,13 +15,6 @@ permalink: "2018-10-25-stragegy-pattern"
 
 <!-- more -->
 
-> 博主按：《每天一个设计模式》旨在初步领会设计模式的精髓，目前采用`javascript`（*靠这吃饭*）和`python`（*纯粹喜欢*）两种语言实现。诚然，每种设计模式都有多种实现方式，但此小册只记录最直截了当的实现方式 :)
-
-## 0. 项目地址
-
-- [本节课代码](https://github.com/dongyuanxin/design-pattern-demos/tree/master/singleton_pattern)
-- [《每天一个设计模式》地址](https://godbmw.com/category/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
-
 ## 1. 什么是策略模式？
 
 > 策略模式定义：就是能够把一系列“可互换的”算法封装起来，并根据用户需求来选择其中一种。

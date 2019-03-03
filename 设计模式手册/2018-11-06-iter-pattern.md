@@ -15,14 +15,6 @@ permalink: "2018-11-06-iter-pattern"
 
 <!-- more -->
 
-> 博主按：《每天一个设计模式》旨在初步领会设计模式的精髓，目前采用`javascript`（*靠这吃饭*）和`python`（*纯粹喜欢*）两种语言实现。诚然，每种设计模式都有多种实现方式，但此小册只记录最直截了当的实现方式 :)
-
-## 0. 项目地址
-
-- 迭代器模式源码:[https://github.com/dongyuanxin/design-pattern-demos/tree/master/iterator_pattern](https://github.com/dongyuanxin/design-pattern-demos/tree/master/iterator_pattern)
-- 《每天一个设计模式》系列：[摘要地址](https://godbmw.com/category/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
-
-
 ## 1. 什么是迭代器模式？
 
 > 迭代器模式是指提供一种方法顺序访问一个集合对象的各个元素，使用者不需要了解集合对象的底层实现。

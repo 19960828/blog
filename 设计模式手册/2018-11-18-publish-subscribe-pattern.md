@@ -15,13 +15,6 @@ permalink: "2018-11-18-publish-subscribe-pattern"
 
 <!-- more -->
 
-> 博主按：《每天一个设计模式》旨在初步领会设计模式的精髓，目前采用`javascript`（*靠这吃饭*）和`python`（*纯粹喜欢*）两种语言实现。诚然，每种设计模式都有多种实现方式，但此小册只记录最直截了当的实现方式 :)
-
-## 0. 项目地址
-
-- [本节课代码](https://github.com/dongyuanxin/design-pattern-demos/tree/master/publish_subscribe_pattern)
-- [《每天一个设计模式》地址](https://godbmw.com/categories/%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
-
 ## 1. 什么是“订阅-发布模式”？
 
 > 订阅-发布模式定义了对象之间的一种一对多的依赖关系，当一个对象的状态发生改变时，所有依赖它的对象都可以得到通知。
