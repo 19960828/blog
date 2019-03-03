@@ -7,6 +7,7 @@ tags:
 - 爬虫
 - 第三方库
 - npm
+permalink: "2018-10-05-music-api-next"
 ---
 
 > 如果你苦于挑选一个全方位、多平台、简便易用的音乐爬虫库，`music-api-next`是不二选择。

@@ -7,6 +7,7 @@ tags:
 - 爬虫
 - 第三方库
 - npm
+permalink: "2018-10-05-music-api-next-docs-zh"
 ---
 
 > `music-api-next`中文文档：一个可以快速从QQ音乐、虾米音乐和网易音乐获得歌曲搜索结果、歌曲链接信息和歌曲评论的第三方库。

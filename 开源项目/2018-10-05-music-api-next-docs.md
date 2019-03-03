@@ -7,6 +7,7 @@ tags:
 - 爬虫
 - 第三方库
 - npm
+permalink: "2018-10-05-music-api-next-docs"
 ---
 
 > The English document of `music-api-next`: music API for search results, songs, comments from QQ, Xiami and Netease.

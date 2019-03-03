@@ -6,6 +6,7 @@ categories:
 tags:
 - UI设计
 - Hexo
+permalink: "2018-11-15-theme-bmw-docs-zh"
 ---
 
 > Now，花了几天的时间，终于把我的主题从 Vuejs 迁移到了 Hexo。这是官方的配置文档，如果您喜欢这个主题，欢迎Star ✨

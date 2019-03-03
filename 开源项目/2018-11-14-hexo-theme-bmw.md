@@ -6,6 +6,7 @@ categories:
 tags:
 - UI设计
 - Hexo
+permalink: "2018-11-14-hexo-theme-bmw"
 ---
 > 这是一个简约、大气、实用的Hexo新主题：BMW👇
 
