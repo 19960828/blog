@@ -34,7 +34,7 @@ permalink: "2019-03-03-theme-ad-docs-zh"
 
 ```ba
 cd your-blog
-git clone https://github.com/dongyuanxin/theme-ad.git themes/bmw
+git clone https://github.com/dongyuanxin/theme-ad.git themes/ad
 ```
 
 ### 启用主题
