@@ -13,9 +13,9 @@ top: true
 
 ## 1. 食用方法
 
-- **内容过多**：请点击下方导航栏的“目录”按钮，打开右侧目录，直接跳转到对应的内容
-- **为防丢失**：欢迎将[博客页面](https://godbmw.com/passages/2019-03-04-please-mark/)添加到“收藏夹”，或者到Github上Star[博客系列](https://github.com/dongyuanxin/blog)
-- **共同参与**：除“学习笔记”分类，其它分类有问题欢迎提[Issue](https://github.com/dongyuanxin/blog/issues)讨论或者提[PR](https://github.com/dongyuanxin/blog/pulls)改进
+1. **文章阅读**：Github仓库中文章的配图是**无法加载的**！！！热爱学习的你(●'◡'●)ﾉ♥，请[**移步博客地址**](https://godbmw.com/categories/)
+2. **文章订阅**：[订阅RSS](https://godbmw.com/atom.xml) / [Watch仓库](https://github.com/dongyuanxin/blog)
+3. **共同参与**：除“学习笔记”分类，其它分类有问题欢迎[提Issue](https://github.com/dongyuanxin/blog/issues)讨论或者[提PR](https://github.com/dongyuanxin/blog/pulls)改进
 
 ## 2. 规划中
 
