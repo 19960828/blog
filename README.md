@@ -1,8 +1,6 @@
 ---
 title: "[置顶]一份值得收藏的知识清单"
 date: 2019-03-04
-categories:
-tags:
 permalink: "2019-03-04-please-mark"
 top: true
 ---
@@ -15,10 +13,15 @@ top: true
 
 ## 1. 食用方法
 
-- **内容过多**，请点击下方导航栏的“目录”按钮，打开右侧目录，直接跳转到对应的内容
-- **为防丢失**，请收藏此页面：[https://godbmw.com/passages/2019-03-04-please-mark/](https://godbmw.com/passages/2019-03-04-please-mark/)
+- **内容过多**：请点击下方导航栏的“目录”按钮，打开右侧目录，直接跳转到对应的内容
+- **为防丢失**：欢迎将[博客页面](https://godbmw.com/passages/2019-03-04-please-mark/)添加到“收藏夹”，或者到Github上Star[博客系列](https://github.com/dongyuanxin/blog)
+- **共同参与**：除“学习笔记”分类，其它分类有问题欢迎提[Issue](https://github.com/dongyuanxin/blog/issues)讨论或者提[PR](https://github.com/dongyuanxin/blog/pulls)改进
 
-## 2. 设计模式手册
+## 2. 规划中
+
+- [ ] Hexo主题开发教程
+
+## 3. 设计模式手册
 
 > 每种设计模式基本都用`ES6`和`Python`进行了实现，选取的例子也都是最典型的应用（避免长篇大论）。
 
@@ -39,7 +42,7 @@ top: true
 15. 备忘录模式: [https://godbmw.com/passages/2019-01-26-memento-pattern/](https://godbmw.com/passages/2019-01-26-memento-pattern/)
 16. 模板模式: [https://godbmw.com/passages/2019-01-31-template-pattern/](https://godbmw.com/passages/2019-01-31-template-pattern/)
 
-## 3. Webpack4渐进式教程
+## 4. Webpack4渐进式教程
 
 > 配套代码地址：[https://github.com/dongyuanxin/webpack-demos](https://github.com/dongyuanxin/webpack-demos)
 
